@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100&family=Anton&family=Patrick+Hand&family=Roboto+Slab&family=Yellowtail&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+header {
+    width: 100%;
+    padding: 3% 200px;
+    overflow: auto;
+}
+
+
+hr {
+    border-top: 10px dotted gray ;
+    width: 71%;
+    text-align: center;
+    margin: auto;
+
+
+}
+
+.logo {
+    line-height: 1;
+    text-align: left;
+    padding-left: 5px;
+}
+
+h1.logo {
+    font-family: 'Yellowtail', cursive;
+}
+
+h2.logo {
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+
+}
+
+.container {
+    float: left;
+}
+
+.container div {
+    display: inline-block;
+
+}
+
+nav {
+    float: right;
+
+}
+
+nav ul {
+    display: inline-block;
+    padding: 5px;
+
+}
+
+nav li {
+    display: inline-block;
+    font-size: 20px;
+}
+
+main h1 {
+    font-family: 'Anton', sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    text-align: left;
+    padding-top: 50px;
+
+}
+
+main h2 {
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 14px;
+    text-align: left;
+
+}
+.titleH1{
+    padding: 30px 200px 0;
+
+
+}
+
+
+.lord {
+    width: 100%;
+    display: inline-block;
+    padding: 0 200px 25px;
+
+}
+
+.print {
+    float: right;
+
+}
+
+span {
+    font-family: 'Advent Pro', sans-serif;
+
+}
+
+.choco {
+    width: 70%;
+    padding-bottom: 50px;
+}
+
+.paragraph {
+    text-align: left;
+    padding: 0 200px 25px;
+    font-family: 'Roboto Slab', serif;
+    color: gray;
+    text-indent: 50px;
+}
+
+
+
+.list {
+    background-image: url(./assets/list-bg.png);
+    background-repeat: no-repeat;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 25px;
+    width: 70%;
+    padding-bottom: 100px;
+    margin-left: 200px;
+	color: rgb(150,106,50);
+
+}
+
+
+.list li {
+    text-align: left;
+    list-style: none;
+
+
+}
+
+.list1 {
+    float: left;
+    padding: 30px 0 0 60px;
+
+}
+
+.list2 {
+    margin-left: 450px;
+    padding-top: 30px;
+
+}
+
+input[type=checkbox]:checked + label{
+    text-decoration:line-through;
+}
+
+
+
+
+.comment {
+    display: inline-block;
+    padding-top:20px;
+}
+
+.pic {
+    float: left;
+    padding-right: 10px;
+}
+
+
+
+button {
+        background-color: #c95b39;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        position:relative;
+        bottom: 30px;
+        
+
+}
+.commentText p ,h3{
+text-align: left;
+font-family: 'Roboto Slab', serif;
+
+}
+
+
+footer {
+    padding: 60px 0 60px;
+    text-align: center;
+    color: gray;
+}
+
+footer hr { 
+
+    background: url('./assets/small-logo.png') no-repeat top center;
+    background-size: contain;
+    display: block;
+    height: 30px;
+    border: 0;
+    position: relative;
+}
+
+
+footer hr:before,
+hr:after {
+    content: '';
+    display: block;
+    position: absolute;
+    background: #d7d7d7;
+    height: 1px;
+    top: 14px;
+}
+footer hr:before {
+    left: 0;
+    right: 50%;
+    margin-right: 14px;
+}
+footer hr:after {
+    right: 0;
+    left: 50%;
+    margin-left: 14px;
+}
+
+footer p{
+    padding-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+  
